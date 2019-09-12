@@ -1,0 +1,8 @@
+[
+  { "title": "note1", "content": "my first note" },
+  { "title": "shopping", "content": "I want to buy some food" },
+  {
+    "title": "training",
+    "content": "I need to perform couple of English exercises"
+  }
+]
