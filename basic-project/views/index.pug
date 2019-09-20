@@ -1,0 +1,11 @@
+extends layout
+
+block main
+  if todos
+    ul#todo-list
+      for todo in todos
+        li.todo-list-item(class={'completed': todo.completed})= todo.title
+    
+  else
+    p Todo list is exist
+  
